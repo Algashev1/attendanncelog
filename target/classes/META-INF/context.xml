@@ -1,0 +1,4 @@
+<ResourceLink name="jdbc/LocalAttendanceLogDB"
+              global="jdbc/AttendanceLogDB"
+              auth="Container"
+              type="javax.sql.DataSource" />

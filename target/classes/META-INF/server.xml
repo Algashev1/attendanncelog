@@ -1,0 +1,13 @@
+<Resource name="jdbc/AttendanceLogDB"
+          global="jdbc/AttendanceLogDB"
+          auth="Container"
+          type="javax.sql.DataSource"
+          driverClassName="org.postgresql.Driver"
+          url="jdbc:postgresql://localhost:5432/AttendanceLog"
+          username="postgres"
+          password="root"
+
+          maxActive="100"
+          maxIdle="20"
+          minIdle="5"
+          maxWait="10000"/>
