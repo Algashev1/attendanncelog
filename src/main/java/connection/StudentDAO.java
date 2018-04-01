@@ -15,9 +15,9 @@ import java.util.List;
 
 public class StudentDAO {
 
-    public static String addStudent (String fio, int group_id) throws SQLException {
+    public static int addStudent (String fio, int group_id) throws SQLException {
         Connection conn = null;
-        String result = null;
+        int result = -1;
         try {
             Context ctx = new InitialContext();
             DataSource ds = (DataSource) ctx.lookup("java:/comp/env/jdbc/LocalAttendanceLogDB");
@@ -27,10 +27,10 @@ public class StudentDAO {
             stat.setString(1, fio);
             stat.setInt(2, group_id);
             stat.execute();
+            result = 1;
 
         } catch (NamingException | SQLException e) {
             e.printStackTrace();
-            result = e.getMessage();
         }
         finally {
             conn.close();
@@ -99,7 +99,6 @@ public class StudentDAO {
             while (rs.next()) {
                 students.add(new Student(rs.getInt(1), rs.getString(2)));
             }
-            int a = 0;
         } catch (NamingException | SQLException e) {
             e.printStackTrace();
         }

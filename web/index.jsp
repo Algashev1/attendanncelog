@@ -1,4 +1,5 @@
-<%@ page import="connection.*" %><%--
+<%@ page import="connection.*" %>
+<%@ page import="javax.jws.soap.SOAPBinding" %><%--
   Created by IntelliJ IDEA.
   User: Gennadiy
   Date: 04.03.2018
@@ -13,7 +14,7 @@
   </head>
   <body>
   <%
-      ScheduleDAO.addSchedule(4, 1);
+      UserDAO.getUser("algashev@live.com", "r1oot");
   %>
   $END$
   </body>

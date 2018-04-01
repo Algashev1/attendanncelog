@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Аутентификация</title>
+    <script src="http://code.jquery.com/jquery-2.2.4.js" type="text/javascript"></script>
+    <script src="js/auth.js"></script>
+</head>
+<body>
+    <div class="menu">
+        <span rel="auth" class="active">Войти</span>
+        <span rel="rega">Регистрация</span>
+    </div>
+    <form action="javascript:void(null);" onsubmit="authAjax()" method="post">
+        <fieldset>
+            <div id="auth_box">
+                <p><input type="email" id="e-mail" required placeholder="Ваш e-mail"></p>
+                <p><input type="password" id="password" required placeholder="Ваш пароль"></p>
+                <p><input type="submit" value="Войти"></p>
+            </div>
+            <!--<div id="reg_box" hide>-->
+                <!--<p><input type="text" id="fio"required placeholder="Ваше ФИО"></p>-->
+                <!--<p><input type="email"  id="r_e-mail" required placeholder="Ваш e-mail"></p>-->
+                <!--<p><input type="password" id="password1" required placeholder="Ваш пароль"></p>-->
+                <!--<p><input type="password" id="password2" required placeholder="Подтверждение пароля"></p>-->
+                <!--<p><input type="text" id="name" required placeholder="Название направления"></p>-->
+                <!--<p><input type="text" id="number" required placeholder="Номер группы"></p>-->
+                <!--<p><input type="submit" value="Регистрация"></p>-->
+            <!--</div>-->
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Редактирование</title>
+    <script src="http://code.jquery.com/jquery-2.2.4.js" type="text/javascript"></script>
+    <script src="js/edit.js"></script>
+</head>
+<body>
+<fieldset>
+    <div>
+        <p><input type="text" id="student_fio"required placeholder="ФИО студента"></p>
+        <p><input type="button" id="add_student" value="Добавить"></p>
+    </div>
+    <div>
+        <select size=5 id="students"></select>
+        <p><input type="button" id="del_student" value="Удалить"></p>
+    </div>
+    <div>
+        <p><input type="text" id="update_stud"required placeholder="Выберите студента"></p>
+        <p><input type="button" id="upd_student" value="Изменить"></p>
+    </div>
+</fieldset>
+
+<fieldset>
+    <div>
+        <select required id="all_discipline">
+            <option value="" hidden>Выбрать дисциплину</option>
+        </select>
+        <p><input type="button" id="add_discipline" value="Добавить"></p>
+    </div>
+    <div>
+        <select size=5 id="schedules"></select>
+        <p><input type="button" id="del_schedule" value="Удалить"></p>
+    </div>
+</fieldset>
+
+</body>
+</html>

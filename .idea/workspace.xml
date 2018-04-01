@@ -7,8 +7,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcc5df25-edba-4c86-af04-c6a33162b9c8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_api_4_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/json_20090211.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/objects/Discipline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/objects/Schedule.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet-api-4.0.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-20090211.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api-2.5.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/auth.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/edit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/auth.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/edit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/servelet/AddDiscipline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/servelet/AddStudent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/servelet/Authentication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/servelet/DelSchedule.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/servelet/GetAllDiscipline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/servelet/GetSchedule.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/servelet/GetStudents.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/servelet/Registration.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/storage_v2/_src_/database/AttendanceLog.eyNP-g/schema/public.abK9xQ.meta" afterPath="$PROJECT_DIR$/.idea/dataSources/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/storage_v2/_src_/database/AttendanceLog.eyNP-g/schema/public.abK9xQ.meta" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/attendanncelog.iml" afterPath="$PROJECT_DIR$/attendanncelog.iml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/AttendanceDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/AttendanceDAO.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/DisciplineDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/DisciplineDAO.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/GroupDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/GroupDAO.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/ScheduleDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/ScheduleDAO.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/StudentDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/StudentDAO.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/UserDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/UserDAO.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/servelets/Registration.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java" afterPath="$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connection/GroupDAO.java" afterPath="$PROJECT_DIR$/src/main/java/connection/GroupDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java" afterPath="$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connection/StudentDAO.java" afterPath="$PROJECT_DIR$/src/main/java/connection/StudentDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connection/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/connection/UserDAO.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connection/AttendanceDAO.class" afterPath="$PROJECT_DIR$/target/classes/connection/AttendanceDAO.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connection/DisciplineDAO.class" afterPath="$PROJECT_DIR$/target/classes/connection/DisciplineDAO.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connection/GroupDAO.class" afterPath="$PROJECT_DIR$/target/classes/connection/GroupDAO.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connection/ScheduleDAO.class" afterPath="$PROJECT_DIR$/target/classes/connection/ScheduleDAO.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connection/StudentDAO.class" afterPath="$PROJECT_DIR$/target/classes/connection/StudentDAO.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connection/UserDAO.class" afterPath="$PROJECT_DIR$/target/classes/connection/UserDAO.class" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/servelets/Registration.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,25 +111,7 @@
         <item name="AttendanceLog: database" type="6d9b600a:PostgresImplModel$Database" />
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Attendance: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="AttendanceLog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="AttendanceLog: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="Discipline: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="AttendanceLog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="AttendanceLog: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Group: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -100,69 +127,138 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/connection/UserDAO.java">
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="67" column="66" lean-forward="true" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="67" />
-              <folding>
-                <marker date="1520168350154" expanded="true" signature="703:775" ph="INSERT INTO \&quot;User\&quot;... " />
-                <marker date="1520168350154" expanded="true" signature="1568:1606" ph="DELETE FROM \&quot;User\&quot;... " />
-                <marker date="1520168350154" expanded="true" signature="2326:2395" ph="UPDATE \&quot;User\&quot;... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DisciplineDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java">
+      <file leaf-file-name="edit.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/js/edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="91" column="33" lean-forward="true" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetStudents.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/servelet/GetStudents.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1520169873690" expanded="true" signature="671:715" ph="INSERT INTO \&quot;Discipline\&quot;... " />
-                <marker date="1520169873690" expanded="true" signature="1405:1455" ph="DELETE FROM \&quot;Discipline\&quot;... " />
-                <marker date="1520169873690" expanded="true" signature="2164:2222" ph="UPDATE \&quot;Discipline\&quot;... " />
+                <element signature="e#2677#2678#0" expanded="true" />
+                <element signature="e#2719#2720#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/console.sql">
+      <file leaf-file-name="StudentDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/connection/StudentDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="383">
+              <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="30" />
+              <folding>
+                <marker date="1522566980979" expanded="true" signature="774:827" ph="INSERT INTO \&quot;Student\&quot;... " />
+                <marker date="1522566980979" expanded="true" signature="1535:1579" ph="DELETE FROM \&quot;Student\&quot;... " />
+                <marker date="1522566980979" expanded="true" signature="2278:2329" ph="UPDATE \&quot;Student\&quot;... " />
+                <marker date="1522566980979" expanded="true" signature="3074:3209" ph="SELECT s.stu... Student" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DelSchedule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/servelet/DelSchedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1673#1674#0" expanded="true" />
+                <element signature="e#1715#1716#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedule" pinned="false" current-in-tab="false">
+        <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.schedule">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1522578748748" expanded="true" signature="811:886" ph="SELECT * FRO... schedule" />
+                <marker date="1522578748748" expanded="true" signature="1095:1159" ph="INSERT INTO \&quot;schedule\&quot;... " />
+                <marker date="1522578748748" expanded="true" signature="1958:2004" ph="DELETE FROM \&quot;schedule\&quot;... " />
+                <marker date="1522578748748" expanded="true" signature="2697:2726" ph="SELECT \&quot;s.s... " />
+                <marker date="1522578748748" expanded="true" signature="2697:2772" ph="SELECT shedu... schedule" />
+                <marker date="1522578748748" expanded="true" signature="2697:2775" ph="SELECT shedu... schedule" />
+                <marker date="1522578748748" expanded="true" signature="2697:2792" ph="SELECT \&quot;s.s... schedule" />
+                <marker date="1522578748748" expanded="true" signature="2697:2810" ph="SELECT \&quot;s.s... schedule" />
+                <marker date="1522578748748" expanded="true" signature="2697:2847" ph="SELECT shedu... schedule" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetSchedule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/servelet/GetSchedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="820">
+              <caret line="77" column="5" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="77" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2694#2695#0" expanded="true" />
+                <element signature="e#2736#2737#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Schedule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/objects/Schedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/objects/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Discipline" pinned="false" current-in-tab="false">
-        <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Discipline">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Group" pinned="false" current-in-tab="false">
-        <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Group">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -172,9 +268,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>JOIN</find>
+      <find>del_schedule</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -187,27 +291,49 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/server.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/servelets/Registration.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/connection/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/objects/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/connection/StudentDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/connection/GroupDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/servelets/Authentication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/servelet/servelet/Authentication.java" />
+        <option value="$PROJECT_DIR$/web/servelet/Registration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/connection/GroupDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/connection/UserDAO.java" />
+        <option value="$PROJECT_DIR$/web/servelet/Authentication.java" />
+        <option value="$PROJECT_DIR$/web/js/auth.js" />
+        <option value="$PROJECT_DIR$/web/auth.html" />
+        <option value="$PROJECT_DIR$/web/servelet/AddStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/objects/Discipline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/connection/StudentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java" />
+        <option value="$PROJECT_DIR$/web/servelet/GetAllDiscipline.java" />
+        <option value="$PROJECT_DIR$/web/servelet/AddDiscipline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/objects/Schedule.java" />
+        <option value="$PROJECT_DIR$/web/servelet/GetSchedule.java" />
+        <option value="$PROJECT_DIR$/web/servelet/DelSchedule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java" />
+        <option value="$PROJECT_DIR$/web/servelet/GetStudents.java" />
+        <option value="$PROJECT_DIR$/web/js/edit.js" />
+        <option value="$PROJECT_DIR$/web/edit.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -232,6 +358,28 @@
     <option name="width" value="1934" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSValidateTypes</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -247,10 +395,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,6 +435,14 @@
               <item name="attendanncelog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="attendancelog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attendanncelog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -314,26 +468,43 @@
               <item name="attendancelog" type="b2602c69:ProjectViewProjectNode" />
               <item name="attendanncelog" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="servelets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="attendancelog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attendanncelog" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servelet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="D:/keyboardsimulator2" />
+    <property name="project.structure.side.proportion" value="0.20876586" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/web/servelet" />
+    <property name="SearchEverywhereHistoryKey" value="JOIN&#9;PSI&#9;JAVA://java.nio.channels.MulticastChannel#join" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\attendanncelog\web\WEB-INF\lib" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\attendanncelog\web" />
     </key>
@@ -357,20 +528,6 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="UserDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="connection.UserDAO" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="attendanncelog" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -439,6 +596,204 @@
       <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration name="auth.html (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.2" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/auth.html" />
+      <deployment>
+        <artifact name="attendanncelog:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="auth_html_(1)_attendancelog" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="attendanncelog:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="auth.html (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.2" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/auth.html" />
+      <deployment>
+        <artifact name="attendanncelog:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="auth_html_(2)_attendancelog" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="attendanncelog:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="auth.html (3)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.2" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/auth.html" />
+      <deployment>
+        <artifact name="attendanncelog:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="auth_html_(3)_attendancelog" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59639" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="attendanncelog:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="auth.html (4)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.2" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/auth.html" />
+      <deployment>
+        <artifact name="attendanncelog:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="auth_html_(4)_attendancelog" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="attendanncelog:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="auth.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.2" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/auth.html" />
+      <deployment>
+        <artifact name="attendanncelog:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="auth_html_attendancelog" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="attendanncelog:war exploded" />
+        </option>
+      </method>
     </configuration>
     <configuration name="geal" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.2" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -518,13 +873,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.geal" />
-      <item index="1" class="java.lang.String" itemvalue="Application.UserDAO" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.auth.html" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.auth.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.auth.html (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.auth.html (3)" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.auth.html (4)" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.UserDAO" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.auth.html (4)" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.auth.html (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.auth.html (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.auth.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.auth.html" />
       </list>
     </recent_temporary>
   </component>
@@ -545,18 +908,37 @@
       <workItem from="1520581254548" duration="246000" />
       <workItem from="1520582380391" duration="92000" />
       <workItem from="1520752138594" duration="44000" />
-      <workItem from="1520752277461" duration="44000" />
+      <workItem from="1520752277461" duration="234000" />
+      <workItem from="1520755082662" duration="20822000" />
+      <workItem from="1520914832925" duration="231000" />
+      <workItem from="1521097273902" duration="193000" />
+      <workItem from="1521166196155" duration="84000" />
+      <workItem from="1521359902397" duration="5345000" />
+      <workItem from="1521374295790" duration="644000" />
+      <workItem from="1521382645472" duration="328000" />
+      <workItem from="1521383323790" duration="2171000" />
+      <workItem from="1521644359133" duration="38000" />
+      <workItem from="1522565844245" duration="14028000" />
     </task>
+    <task id="LOCAL-00001" summary="add vcs.xml">
+      <created>1520752346545</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520752346545</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21710000" />
+    <option name="totallyTimeSpent" value="65784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -564,154 +946,103 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978093" sideWeight="0.50238097" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34063527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33874458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14498934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18443497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1652452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18869936" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39673913" sideWeight="0.49761903" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3809524" sideWeight="0.49761903" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978093" sideWeight="0.50238097" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18869936" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3809524" sideWeight="0.49761903" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33874458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18443497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add vcs.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add vcs.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/UserDAO.java</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/UserDAO.java</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/UserDAO.java</url>
-          <line>81</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/index.jsp</url>
-          <line>15</line>
+          <line>16</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/web/servelet/AddDiscipline.java</url>
+          <line>22</line>
           <properties />
-          <option name="timeStamp" value="75" />
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java</url>
-          <line>55</line>
+          <url>file://$PROJECT_DIR$/web/servelet/DelSchedule.java</url>
+          <line>17</line>
           <properties />
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="81" />
+          <option name="timeStamp" value="117" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="82" />
+      <option name="time" value="118" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -719,191 +1050,11 @@
       </configuration>
     </watches-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520168350154" expanded="true" signature="703:775" ph="INSERT INTO \&quot;User\&quot;... " />
-            <marker date="1520168350154" expanded="true" signature="1568:1606" ph="DELETE FROM \&quot;User\&quot;... " />
-            <marker date="1520168350154" expanded="true" signature="2326:2395" ph="UPDATE \&quot;User\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1520169873690" expanded="true" signature="671:715" ph="INSERT INTO \&quot;Discipline\&quot;... " />
-            <marker date="1520169873690" expanded="true" signature="1405:1455" ph="DELETE FROM \&quot;Discipline\&quot;... " />
-            <marker date="1520169873690" expanded="true" signature="2164:2222" ph="UPDATE \&quot;Discipline\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Discipline">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Group">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520168350154" expanded="true" signature="703:775" ph="INSERT INTO \&quot;User\&quot;... " />
-            <marker date="1520168350154" expanded="true" signature="1568:1606" ph="DELETE FROM \&quot;User\&quot;... " />
-            <marker date="1520168350154" expanded="true" signature="2326:2395" ph="UPDATE \&quot;User\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1520169873690" expanded="true" signature="671:715" ph="INSERT INTO \&quot;Discipline\&quot;... " />
-            <marker date="1520169873690" expanded="true" signature="1405:1455" ph="DELETE FROM \&quot;Discipline\&quot;... " />
-            <marker date="1520169873690" expanded="true" signature="2164:2222" ph="UPDATE \&quot;Discipline\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Discipline">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Group">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/GroupDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="69" column="27" lean-forward="false" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1520168350141" expanded="true" signature="677:727" ph="INSERT INTO \&quot;Group\&quot;... " />
-            <marker date="1520168350141" expanded="true" signature="1446:1486" ph="DELETE FROM \&quot;Group\&quot;... " />
-            <marker date="1520168350141" expanded="true" signature="2195:2255" ph="UPDATE \&quot;Group\&quot;... " />
-            <marker date="1520168350141" expanded="true" signature="2254:2255" ph="DELETE FROM \&quot;Group\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/StudentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1520166432746" expanded="true" signature="782:835" ph="INSERT INTO \&quot;Student\&quot;... " />
-            <marker date="1520166432746" expanded="true" signature="1556:1600" ph="DELETE FROM \&quot;Student\&quot;... " />
-            <marker date="1520166432746" expanded="true" signature="2299:2350" ph="UPDATE \&quot;Student\&quot;... " />
-            <marker date="1520166432746" expanded="true" signature="2343:2350" ph="DELETE FROM \&quot;Student\&quot;... " />
-            <marker date="1520166432746" expanded="true" signature="3095:3184" ph="SELECT s.stu... Student" />
-            <marker date="1520166432746" expanded="true" signature="3095:3230" ph="SELECT s.stu... Student" />
-            <marker date="1520166432746" expanded="true" signature="3226:3230" ph="UPDATE \&quot;Student\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1520173029574" expanded="true" signature="688:752" ph="INSERT INTO \&quot;Schedule\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <marker date="1520581486388" expanded="true" signature="716:777" ph="INSERT INTO \&quot;Attendance\&quot;... " />
-            <marker date="1520581486388" expanded="true" signature="716:797" ph="INSERT INTO \&quot;Attendance\&quot;... " />
-            <marker date="1520581486388" expanded="true" signature="1601:1651" ph="DELETE FROM \&quot;Attendance\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <marker date="1520168350154" expanded="true" signature="703:775" ph="INSERT INTO \&quot;User\&quot;... " />
-            <marker date="1520168350154" expanded="true" signature="1568:1606" ph="DELETE FROM \&quot;User\&quot;... " />
-            <marker date="1520168350154" expanded="true" signature="2326:2395" ph="UPDATE \&quot;User\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Discipline">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -930,13 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="69" column="27" lean-forward="false" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1520168350141" expanded="true" signature="677:727" ph="INSERT INTO \&quot;Group\&quot;... " />
-            <marker date="1520168350141" expanded="true" signature="1446:1486" ph="DELETE FROM \&quot;Group\&quot;... " />
-            <marker date="1520168350141" expanded="true" signature="2195:2255" ph="UPDATE \&quot;Group\&quot;... " />
-            <marker date="1520168350141" expanded="true" signature="2254:2255" ph="DELETE FROM \&quot;Group\&quot;... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,16 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="38" column="5" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1520166432746" expanded="true" signature="782:835" ph="INSERT INTO \&quot;Student\&quot;... " />
-            <marker date="1520166432746" expanded="true" signature="1556:1600" ph="DELETE FROM \&quot;Student\&quot;... " />
-            <marker date="1520166432746" expanded="true" signature="2299:2350" ph="UPDATE \&quot;Student\&quot;... " />
-            <marker date="1520166432746" expanded="true" signature="2343:2350" ph="DELETE FROM \&quot;Student\&quot;... " />
-            <marker date="1520166432746" expanded="true" signature="3095:3184" ph="SELECT s.stu... Student" />
-            <marker date="1520166432746" expanded="true" signature="3095:3230" ph="SELECT s.stu... Student" />
-            <marker date="1520166432746" expanded="true" signature="3226:3230" ph="UPDATE \&quot;Student\&quot;... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,7 +1097,15 @@
           <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1520173029574" expanded="true" signature="688:752" ph="INSERT INTO \&quot;Schedule\&quot;... " />
+            <marker date="1522578748748" expanded="true" signature="811:886" ph="SELECT * FRO... schedule" />
+            <marker date="1522578748748" expanded="true" signature="1095:1159" ph="INSERT INTO \&quot;schedule\&quot;... " />
+            <marker date="1522578748748" expanded="true" signature="1958:2004" ph="DELETE FROM \&quot;schedule\&quot;... " />
+            <marker date="1522578748748" expanded="true" signature="2697:2726" ph="SELECT \&quot;s.s... " />
+            <marker date="1522578748748" expanded="true" signature="2697:2772" ph="SELECT shedu... schedule" />
+            <marker date="1522578748748" expanded="true" signature="2697:2775" ph="SELECT shedu... schedule" />
+            <marker date="1522578748748" expanded="true" signature="2697:2792" ph="SELECT \&quot;s.s... schedule" />
+            <marker date="1522578748748" expanded="true" signature="2697:2810" ph="SELECT \&quot;s.s... schedule" />
+            <marker date="1522578748748" expanded="true" signature="2697:2847" ph="SELECT shedu... schedule" />
           </folding>
         </state>
       </provider>
@@ -980,7 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,72 +1146,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/META-INF/server.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/servelets/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/objects.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/objects/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/GroupDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="69" column="27" lean-forward="false" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1520168350141" expanded="true" signature="677:727" ph="INSERT INTO \&quot;Group\&quot;... " />
-            <marker date="1520168350141" expanded="true" signature="1446:1486" ph="DELETE FROM \&quot;Group\&quot;... " />
-            <marker date="1520168350141" expanded="true" signature="2195:2255" ph="UPDATE \&quot;Group\&quot;... " />
-            <marker date="1520168350141" expanded="true" signature="2254:2255" ph="DELETE FROM \&quot;Group\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/sql/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="74" column="73" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/StudentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1520166432746" expanded="true" signature="782:835" ph="INSERT INTO \&quot;Student\&quot;... " />
-            <marker date="1520166432746" expanded="true" signature="1556:1600" ph="DELETE FROM \&quot;Student\&quot;... " />
-            <marker date="1520166432746" expanded="true" signature="2299:2350" ph="UPDATE \&quot;Student\&quot;... " />
-            <marker date="1520166432746" expanded="true" signature="2343:2350" ph="DELETE FROM \&quot;Student\&quot;... " />
-            <marker date="1520166432746" expanded="true" signature="3095:3184" ph="SELECT s.stu... Student" />
-            <marker date="1520166432746" expanded="true" signature="3095:3230" ph="SELECT s.stu... Student" />
-            <marker date="1520166432746" expanded="true" signature="3226:3230" ph="UPDATE \&quot;Student\&quot;... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,25 +1171,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Group">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Discipline">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1119,6 +1185,246 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/servelet/Test.java" />
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Group">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/servelet/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/servelet/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2167#2168#0" expanded="false" />
+            <element signature="e#2209#2210#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Attendance">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/auth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/Discipline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Discipline">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/servelet/AddStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1967#1968#0" expanded="false" />
+            <element signature="e#2009#2010#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/connection/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1001">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <marker date="1521363208965" expanded="true" signature="722:794" ph="INSERT INTO \&quot;User\&quot;... " />
+            <marker date="1521363208965" expanded="true" signature="1597:1616" ph="SELECT \&quot;use... " />
+            <marker date="1521363208965" expanded="true" signature="1597:1619" ph="SELECT \&quot;use... " />
+            <marker date="1521363208965" expanded="true" signature="1597:1641" ph="SELECT \&quot;use... " />
+            <marker date="1521363208965" expanded="true" signature="1597:1649" ph="SELECT \&quot;use... User" />
+            <marker date="1521363208965" expanded="true" signature="1597:1656" ph="SELECT \&quot;use... User" />
+            <marker date="1521363208965" expanded="true" signature="1597:1662" ph="SELECT \&quot;use... User" />
+            <marker date="1521363208965" expanded="true" signature="1597:1664" ph="SELECT INSER... " />
+            <marker date="1521363208965" expanded="true" signature="2571:2626" ph="SELECT \&quot;gro... User" />
+            <marker date="1521363208965" expanded="true" signature="3406:3444" ph="DELETE FROM \&quot;User\&quot;... " />
+            <marker date="1521363208965" expanded="true" signature="4164:4233" ph="UPDATE \&quot;User\&quot;... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.User">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.schedule">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/nio/channels/MulticastChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="227" column="18" lean-forward="false" selection-start-line="227" selection-start-column="18" selection-end-line="227" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <marker date="1520581486388" expanded="true" signature="716:797" ph="INSERT INTO \&quot;Attendance\&quot;... " />
+            <marker date="1520581486388" expanded="true" signature="1601:1651" ph="DELETE FROM \&quot;Attendance\&quot;... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/connection/GroupDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <marker date="1521363020306" expanded="true" signature="696:746" ph="INSERT INTO \&quot;Group\&quot;... " />
+            <marker date="1521363020306" expanded="true" signature="1453:1500" ph="SELECT group... Group" />
+            <marker date="1521363020306" expanded="true" signature="2252:2292" ph="DELETE FROM \&quot;Group\&quot;... " />
+            <marker date="1521363020306" expanded="true" signature="3001:3061" ph="UPDATE \&quot;Group\&quot;... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1522567006480" expanded="true" signature="777:821" ph="INSERT INTO \&quot;Discipline\&quot;... " />
+            <marker date="1522567006480" expanded="true" signature="1511:1561" ph="DELETE FROM \&quot;Discipline\&quot;... " />
+            <marker date="1522567006480" expanded="true" signature="2268:2296" ph="SELECT * FRO... D" />
+            <marker date="1522567006480" expanded="true" signature="3126:3184" ph="UPDATE \&quot;Discipline\&quot;... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/servelet/GetAllDiscipline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="64" lean-forward="false" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
+            <element signature="e#2662#2663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/servelet/AddDiscipline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1879#1880#0" expanded="true" />
+            <element signature="e#1921#1922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1522578748748" expanded="true" signature="811:886" ph="SELECT * FRO... schedule" />
+            <marker date="1522578748748" expanded="true" signature="1095:1159" ph="INSERT INTO \&quot;schedule\&quot;... " />
+            <marker date="1522578748748" expanded="true" signature="1958:2004" ph="DELETE FROM \&quot;schedule\&quot;... " />
+            <marker date="1522578748748" expanded="true" signature="2697:2726" ph="SELECT \&quot;s.s... " />
+            <marker date="1522578748748" expanded="true" signature="2697:2772" ph="SELECT shedu... schedule" />
+            <marker date="1522578748748" expanded="true" signature="2697:2775" ph="SELECT shedu... schedule" />
+            <marker date="1522578748748" expanded="true" signature="2697:2792" ph="SELECT \&quot;s.s... schedule" />
+            <marker date="1522578748748" expanded="true" signature="2697:2810" ph="SELECT \&quot;s.s... schedule" />
+            <marker date="1522578748748" expanded="true" signature="2697:2847" ph="SELECT shedu... schedule" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.schedule">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1126,59 +1432,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/servelet/DelSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/servelet/GetSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="77" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2694#2695#0" expanded="true" />
+            <element signature="e#2736#2737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/connection/StudentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="383">
+          <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="30" />
+          <folding>
+            <marker date="1522566980979" expanded="true" signature="774:827" ph="INSERT INTO \&quot;Student\&quot;... " />
+            <marker date="1522566980979" expanded="true" signature="1535:1579" ph="DELETE FROM \&quot;Student\&quot;... " />
+            <marker date="1522566980979" expanded="true" signature="2278:2329" ph="UPDATE \&quot;Student\&quot;... " />
+            <marker date="1522566980979" expanded="true" signature="3074:3209" ph="SELECT s.stu... Student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/servelet/GetStudents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1520169873690" expanded="true" signature="671:715" ph="INSERT INTO \&quot;Discipline\&quot;... " />
-            <marker date="1520169873690" expanded="true" signature="1405:1455" ph="DELETE FROM \&quot;Discipline\&quot;... " />
-            <marker date="1520169873690" expanded="true" signature="2164:2222" ph="UPDATE \&quot;Discipline\&quot;... " />
+            <element signature="e#2677#2678#0" expanded="true" />
+            <element signature="e#2719#2720#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java">
+    <entry file="file://$PROJECT_DIR$/web/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1520173029574" expanded="true" signature="688:752" ph="INSERT INTO \&quot;Schedule\&quot;... " />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java">
+    <entry file="file://$PROJECT_DIR$/web/js/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <marker date="1520581486388" expanded="true" signature="716:777" ph="INSERT INTO \&quot;Attendance\&quot;... " />
-            <marker date="1520581486388" expanded="true" signature="716:797" ph="INSERT INTO \&quot;Attendance\&quot;... " />
-            <marker date="1520581486388" expanded="true" signature="1601:1651" ph="DELETE FROM \&quot;Attendance\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="67" column="66" lean-forward="true" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="67" />
-          <folding>
-            <marker date="1520168350154" expanded="true" signature="703:775" ph="INSERT INTO \&quot;User\&quot;... " />
-            <marker date="1520168350154" expanded="true" signature="1568:1606" ph="DELETE FROM \&quot;User\&quot;... " />
-            <marker date="1520168350154" expanded="true" signature="2326:2395" ph="UPDATE \&quot;User\&quot;... " />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="91" column="33" lean-forward="true" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,6 +1553,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: org.postgresql:postgresql:42.2.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1240,7 +1581,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20876586" />
                 <option value="0.6" />
               </list>
             </option>
@@ -1249,11 +1590,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.postgresql:postgresql:42.2.1</last-edited>
+          <last-edited>json-20090211</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20876586" />
               </list>
             </option>
           </splitter-proportions>

@@ -6,13 +6,14 @@ import javax.naming.NamingException;
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class GroupDAO {
 
-    public static String addGroup (String number, String name) throws SQLException {
+    public static int addGroup (String number, String name) throws SQLException {
         Connection conn = null;
-        String result = null;
+        int result = -1;
         try {
             Context ctx = new InitialContext();
             DataSource ds = (DataSource) ctx.lookup("java:/comp/env/jdbc/LocalAttendanceLogDB");
@@ -22,16 +23,42 @@ public class GroupDAO {
             stat.setString(1, number);
             stat.setString(2, name);
             stat.execute();
+            result = 1;
 
         } catch (NamingException | SQLException e) {
             e.printStackTrace();
-            result = e.getMessage();
         }
         finally {
             conn.close();
         }
         return result;
     }
+
+    public static int getGroupByNumber (String number) throws SQLException {
+        Connection conn = null;
+        int result = -1;
+        try {
+            Context ctx = new InitialContext();
+            DataSource ds = (DataSource) ctx.lookup("java:/comp/env/jdbc/LocalAttendanceLogDB");
+            conn = ds.getConnection();
+
+            PreparedStatement stat = conn.prepareStatement("SELECT group_id FROM \"Group\" WHERE number = ?;");
+            stat.setString(1, number);
+            ResultSet rs = stat.executeQuery();
+            while (rs.next()) {
+                result = rs.getInt(1);
+            }
+
+        } catch (NamingException | SQLException e) {
+            e.printStackTrace();
+        }
+        finally {
+            conn.close();
+        }
+        return result;
+    }
+
+
 
     public static String delGroup (int group_id) throws SQLException {
         Connection conn = null;
