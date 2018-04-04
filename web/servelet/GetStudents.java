@@ -20,6 +20,7 @@ public class GetStudents extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws IOException, JSONException {
         response.setContentType("application/json");
         response.setCharacterEncoding("utf-8");
+        //test
         try (PrintWriter out = response.getWriter()) {
             JSONObject jsonEnt = new JSONObject();
             HttpSession s = request.getSession(true);
