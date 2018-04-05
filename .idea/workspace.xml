@@ -7,13 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcc5df25-edba-4c86-af04-c6a33162b9c8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/servelet/DelStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servelet/UpdStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/storage_v2/_src_/database/AttendanceLog.eyNP-g/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/storage_v2/_src_/database/AttendanceLog.eyNP-g/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/attendanncelog_war_exploded/WEB-INF/classes/connection/StudentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/connection/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connection/StudentDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/connection/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connection/StudentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/js/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/edit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/servelet/GetAllDiscipline.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/servelet/GetAllDiscipline.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,20 +94,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/edit.html">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="45" />
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="68" column="39" lean-forward="true" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="239" column="35" selection-start-line="239" selection-start-column="35" selection-end-line="239" selection-end-column="35" />
+            <state relative-caret-position="378">
+              <caret line="117" column="5" lean-forward="true" selection-start-line="83" selection-start-column="4" selection-end-line="117" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttendanceDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdStudent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/servelet/UpdStudent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1664#1665#0" expanded="true" />
+                <element signature="e#1706#1707#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +156,8 @@
       <file leaf-file-name="DelStudent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/servelet/DelStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="490">
+              <caret line="52" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1671#1672#0" expanded="true" />
@@ -124,8 +170,8 @@
       <file leaf-file-name="StudentDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/connection/StudentDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+            <state relative-caret-position="186">
+              <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -144,55 +190,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetSchedule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/servelet/GetSchedule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScheduleDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisciplineDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/connection/DisciplineDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetStudents.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/servelet/GetStudents.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2692#2693#0" expanded="true" />
-                <element signature="e#2734#2735#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -217,7 +222,6 @@
         <option value="$PROJECT_DIR$/src/main/java/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/connection/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/objects/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/servelets/Authentication.java" />
@@ -236,13 +240,18 @@
         <option value="$PROJECT_DIR$/web/servelet/GetSchedule.java" />
         <option value="$PROJECT_DIR$/web/servelet/DelSchedule.java" />
         <option value="$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java" />
-        <option value="$PROJECT_DIR$/web/edit.html" />
         <option value="$PROJECT_DIR$/web/servelet/GetStudents.java" />
         <option value="$PROJECT_DIR$/web/auth.html" />
         <option value="$PROJECT_DIR$/web/servelet/GetAllDiscipline.java" />
         <option value="$PROJECT_DIR$/web/servelet/DelStudent.java" />
+        <option value="$PROJECT_DIR$/web/servelet/UpdStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/connection/StudentDAO.java" />
         <option value="$PROJECT_DIR$/web/js/edit.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/main.html" />
+        <option value="$PROJECT_DIR$/web/edit.html" />
+        <option value="$PROJECT_DIR$/web/main.html" />
+        <option value="$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java" />
+        <option value="$PROJECT_DIR$/web/js/main.js" />
       </list>
     </option>
   </component>
@@ -372,12 +381,6 @@
               <item name="attendancelog" type="b2602c69:ProjectViewProjectNode" />
               <item name="attendanncelog" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="attendancelog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="attendanncelog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="servelet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -385,13 +388,6 @@
               <item name="attendanncelog" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="attendancelog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="attendanncelog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="attendancelog" type="b2602c69:ProjectViewProjectNode" />
@@ -419,14 +415,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\attendanncelog\web\WEB-INF\lib" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\attendanncelog\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\attendanncelog\web" />
+      <recent name="D:\attendanncelog\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -808,7 +805,7 @@
       <workItem from="1522565844245" duration="14028000" />
       <workItem from="1522855178559" duration="6402000" />
       <workItem from="1522896484667" duration="2322000" />
-      <workItem from="1522938408087" duration="4152000" />
+      <workItem from="1522938408087" duration="8331000" />
     </task>
     <task id="LOCAL-00001" summary="add vcs.xml">
       <created>1520752346545</created>
@@ -831,15 +828,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522867126931</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add vcs.xml">
+      <created>1522942831975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522942831975</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78660000" />
+    <option name="totallyTimeSpent" value="82839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.4620462" />
@@ -848,7 +851,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.18759455" />
+      <window_info anchor="right" id="Database" order="3" weight="0.18683812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -860,9 +863,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32921347" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.4620462" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.4620462" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -875,36 +878,38 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32979852" />
-      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49924356" weight="0.32838285" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32838285" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33874458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.4620462" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50238097" side_tool="true" weight="0.39978093" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32921347" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.4620462" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32921347" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18443497" />
-      <window_info anchor="right" id="Database" order="5" weight="0.18869936" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32921347" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49761903" visible="true" weight="0.3809524" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
+      <window_info anchor="right" id="Database" order="6" weight="0.18683812" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49761903" weight="0.3778878" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -968,27 +973,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/GroupDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/StudentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/connection/ScheduleDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1055,13 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="30" selection-start-line="29" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Attendance">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1143,13 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
           <caret line="92" column="87" selection-start-line="92" selection-start-column="81" selection-end-line="92" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="21" column="113" selection-start-line="21" selection-start-column="100" selection-end-line="21" selection-end-column="113" />
         </state>
       </provider>
     </entry>
@@ -1275,17 +1245,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/StudentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/servelet/DelStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="490">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1671#1672#0" expanded="true" />
@@ -1294,17 +1257,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/connection/StudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/servelet/UpdStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="136">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/71085f21/0ffbe1b8-9846-4f03-8383-8df6d4d5b7a1/AttendanceLog.public.Attendance">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/connection/AttendanceDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="239" column="35" selection-start-line="239" selection-start-column="35" selection-end-line="239" selection-end-column="35" />
+        <state relative-caret-position="378">
+          <caret line="117" column="5" lean-forward="true" selection-start-line="83" selection-start-column="4" selection-end-line="117" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="68" column="39" lean-forward="true" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
         </state>
       </provider>
     </entry>

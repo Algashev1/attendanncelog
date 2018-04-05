@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 public class AttendanceDAO {
 
-    public static String addAttendance (int student_id, int discipline_id) throws SQLException {
+    public static String addAttendance (int student_id, int discipline_id, int number) throws SQLException {
         Connection conn = null;
         String result = null;
         try {
@@ -19,10 +19,10 @@ public class AttendanceDAO {
             DataSource ds = (DataSource) ctx.lookup("java:/comp/env/jdbc/LocalAttendanceLogDB");
             conn = ds.getConnection();
 
-            PreparedStatement stat = conn.prepareStatement("INSERT INTO \"Attendance\" (student_id, discipline_id, \"date\") VALUES (?, ?, ?);");
+            PreparedStatement stat = conn.prepareStatement("INSERT INTO \"Attendance\" (student_id, discipline_id, \"number\") VALUES (?, ?, ?);");
             stat.setInt(1, student_id);
             stat.setInt(2, discipline_id);
-            stat.setDate(3, new Date(System.currentTimeMillis()));
+            stat.setInt(3, number);
 
             stat.execute();
 

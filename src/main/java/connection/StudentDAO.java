@@ -60,9 +60,9 @@ public class StudentDAO {
         return result;
     }
 
-    public static String updStudent (int student_id, String fio) throws SQLException {
+    public static int updStudent (int student_id, String fio) throws SQLException {
         Connection conn = null;
-        String result = null;
+        int result = -1;
         try {
             Context ctx = new InitialContext();
             DataSource ds = (DataSource) ctx.lookup("java:/comp/env/jdbc/LocalAttendanceLogDB");
@@ -72,10 +72,10 @@ public class StudentDAO {
             stat.setInt(2, student_id);
             stat.setString(1, fio);
             stat.execute();
+            result = 1;
 
         } catch (NamingException | SQLException e) {
             e.printStackTrace();
-            result = e.getMessage();
         }
         finally {
             conn.close();

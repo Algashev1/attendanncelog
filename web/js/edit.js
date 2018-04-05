@@ -233,8 +233,29 @@ $(document).ready(function(){
         var upd_stud = $("#update_stud");
         var fio = upd_stud.val();
         var student_id = upd_stud.attr('data-id');
-        alert(fio);
-        alert(student_id);
+        if (fio === "" ) {
+            alert("Bad");
+        }
+        else {
+            $.ajax
+            ({
+                type: "POST",
+                data: {"student_id": student_id, "fio": fio},
+                url: 'UpdStudent',
+                success: function (serverData) {
+                    var result = serverData.result;
+                    if (result > 0) {
+                        alert("Good");
+                        getStudents();
+                    } else {
+                        alert("Bad");
+                    }
+                },
+                error: function (e) {
+                    alert("Произошла ошибка ajax запроса!");
+                }
+            });
+        }
     });
 
     $("#students").change(function() {
