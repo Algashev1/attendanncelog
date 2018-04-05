@@ -36,7 +36,7 @@ $(document).ready(function(){
                     }
                 }
                 else {
-                    alert("Bad");
+                    alert("Bad1");
                 }
             },
             error: function (e) {
@@ -53,7 +53,7 @@ $(document).ready(function(){
             url: 'GetSchedule',
             success: function (serverData) {
                 var result = serverData.result;
-                if (result > 0) {
+                if (result >= 0) {
                     var schedule_ids = serverData.schedule_ids.split(",");
                     var names = serverData.names.split(",");
 
@@ -72,7 +72,7 @@ $(document).ready(function(){
                     }
                 }
                 else {
-                    alert("Bad");
+                    alert("Bad2");
                 }
             },
             error: function (e) {
@@ -89,7 +89,7 @@ $(document).ready(function(){
             url: 'GetStudents',
             success: function (serverData) {
                 var result = serverData.result;
-                if (result > 0) {
+                if (result >= 0) {
                     var student_ids = serverData.student_ids.split(",");
                     var names = serverData.names.split(",");
 
@@ -106,10 +106,9 @@ $(document).ready(function(){
                         option.text(names[i]);
                         select.append(option);
                     }
-                    getStudents();
                 }
                 else {
-                    alert("Bad");
+                    alert("Bad3");
                 }
             },
             error: function (e) {
@@ -133,6 +132,7 @@ $(document).ready(function(){
                     var result = serverData.result;
                     if (result > 0) {
                         alert("Good");
+                        getStudents();
                     }
                     else {
                         alert("Bad");
@@ -202,12 +202,45 @@ $(document).ready(function(){
     });
 
     $("#del_student").click(function() {
-        var schedule_id = $("#students").val();
-        if (schedule_id === "") {
+        var student_id = $("#students").val();
+        if (student_id === "") {
             alert("Bad");
         }
         else {
-
+            $.ajax
+            ({
+                type: "POST",
+                data: {"student_id": student_id},
+                url: 'DelStudent',
+                success: function (serverData) {
+                    var result = serverData.result;
+                    if (result > 0) {
+                        alert("Good");
+                        $("#update_stud").val("");
+                        getStudents();
+                    } else {
+                        alert("Bad");
+                    }
+                },
+                error: function (e) {
+                    alert("Произошла ошибка ajax запроса!");
+                }
+            });
         }
+    });
+
+    $("#upd_student").click(function() {
+        var upd_stud = $("#update_stud");
+        var fio = upd_stud.val();
+        var student_id = upd_stud.attr('data-id');
+        alert(fio);
+        alert(student_id);
+    });
+
+    $("#students").change(function() {
+        var upd_stud = $("#update_stud");
+        var sel_stud = $("#students option:selected");
+        upd_stud.val(sel_stud.text());
+        upd_stud.attr('data-id', sel_stud.val());
     });
 });

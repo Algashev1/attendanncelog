@@ -38,9 +38,9 @@ public class StudentDAO {
         return result;
     }
 
-    public static String delStudent (int student_id) throws SQLException {
+    public static int delStudent (int student_id) throws SQLException {
         Connection conn = null;
-        String result = null;
+        int result = -1;
         try {
             Context ctx = new InitialContext();
             DataSource ds = (DataSource) ctx.lookup("java:/comp/env/jdbc/LocalAttendanceLogDB");
@@ -49,10 +49,10 @@ public class StudentDAO {
             PreparedStatement stat = conn.prepareStatement("DELETE FROM \"Student\" WHERE student_id = ?;");
             stat.setInt(1, student_id);
             stat.execute();
+            result = 1;
 
         } catch (NamingException | SQLException e) {
             e.printStackTrace();
-            result = e.getMessage();
         }
         finally {
             conn.close();
