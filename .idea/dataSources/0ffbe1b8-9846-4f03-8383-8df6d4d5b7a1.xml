@@ -22,8 +22,8 @@
     </role>
     <schema id="5" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2018-04-05.20:38:53.047</IntrospectionTimestamp>
-      <IntrospectionStateNumber>712</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-04-08.11:16:26.782</IntrospectionTimestamp>
+      <IntrospectionStateNumber>713</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -128,7 +128,7 @@
     </sequence>
     <table id="23" parent="5" name="Attendance">
       <ObjectId>16489</ObjectId>
-      <StateNumber>712</StateNumber>
+      <StateNumber>713</StateNumber>
     </table>
     <table id="24" parent="5" name="Discipline">
       <ObjectId>16461</ObjectId>
@@ -148,7 +148,7 @@
     </table>
     <table id="28" parent="5" name="schedule">
       <ObjectId>16475</ObjectId>
-      <StateNumber>689</StateNumber>
+      <StateNumber>713</StateNumber>
     </table>
     <column id="29" parent="23" name="attendance_id">
       <Position>1</Position>
@@ -168,11 +168,11 @@
       <TypeId>23</TypeId>
       <SequenceName>Attendance_student_id_seq</SequenceName>
     </column>
-    <column id="31" parent="23" name="discipline_id">
+    <column id="31" parent="23" name="schedule_id">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>687</StateNumber>
+      <StateNumber>713</StateNumber>
       <DefaultExpression>nextval(&apos;&quot;Attendance_discipline_id_seq&quot;&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
       <SequenceName>Attendance_discipline_id_seq</SequenceName>
@@ -203,14 +203,14 @@
       <RefKeyName>pk_student_id</RefKeyName>
       <RefColNames>student_id</RefColNames>
     </foreign-key>
-    <foreign-key id="36" parent="23" name="fk_discipline_id">
-      <ObjectId>16502</ObjectId>
-      <ColNames>discipline_id</ColNames>
-      <RefTableId>16461</RefTableId>
+    <foreign-key id="36" parent="23" name="fk_schedule_id">
+      <ObjectId>16518</ObjectId>
+      <ColNames>schedule_id</ColNames>
+      <RefTableId>16475</RefTableId>
       <RefColPositions>1</RefColPositions>
-      <RefTableName>Discipline</RefTableName>
-      <RefKeyName>pk_discipline_id</RefKeyName>
-      <RefColNames>discipline_id</RefColNames>
+      <RefTableName>schedule</RefTableName>
+      <RefKeyName>pk_schedule_id</RefKeyName>
+      <RefColNames>schedule_id</RefColNames>
     </foreign-key>
     <column id="37" parent="24" name="discipline_id">
       <Position>1</Position>

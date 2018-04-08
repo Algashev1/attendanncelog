@@ -1,5 +1,6 @@
 package servelet;
 
+import connection.AttendanceDAO;
 import connection.ScheduleDAO;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -20,6 +21,7 @@ public class DelSchedule extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             JSONObject jsonEnt = new JSONObject();
             int schedule_id = Integer.parseInt(request.getParameter("schedule_id"));
+            AttendanceDAO.delAttendanceBySchedule_id(schedule_id);
             int result = ScheduleDAO.delSchedule(schedule_id);
             jsonEnt.put("result", result);
             out.print(jsonEnt.toString());
