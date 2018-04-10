@@ -9,14 +9,12 @@ function authAjax() {
             success: function(serverData){
                 var result = serverData.result;
                 if (result == -1) {
-                    alert("Не верный e-mail");
+                    $("#error_msg1").text("Неверный e-mail");
                 } else if (result == -2) {
-                    alert("Не верный пароль");
+                    $("#error_msg1").text("Неверный пароль");;
                 }
                 else if (result == 0) {
-                    alert("Заполнены не все поля");
                 } else {
-                    alert("Good");
                     var url = "http://localhost:8080/edit.html";
                     $(location).attr('href',url);
                 }
@@ -44,14 +42,14 @@ function regAjax() {
                 success: function(serverData){
                     var result = serverData.result;
                     if (result == -1) {
-                        alert("Группа не добавлена");
+                        $("#error_msg2").text("Группа не добавлена");
                     } else if (result == -2) {
-                        alert("Пользователь не добавлен");
+                        $("#error_msg2").text("Пользователь не добавлен");
                     }
                     else if (result == 0) {
-                        alert("Заполнены не все поля");
+
                     } else {
-                        alert("Good");
+                        location.reload();
                     }
                 },
                 error: function () {
@@ -60,9 +58,25 @@ function regAjax() {
             });
         }
         else {
-            alert("Пароли не совпадают");
+            $("#error_msg2").text("Пароли не совпадают");
         }
-    } else {
-        alert("Заполнены не все поля");
     }
 }
+
+$(document).ready(function() {
+
+    $("#click_reg").click(function () {
+        $("#auth_box").css('visibility', 'hidden');
+        $("#reg_box").css('visibility', 'visible');
+        $("#form1").trigger("reset");
+        $("#error_msg1").text("");
+    });
+
+    $("#click_return").click(function () {
+        $("#auth_box").css('visibility', 'visible');
+        $("#reg_box").css('visibility', 'hidden');
+        $("#form2").trigger("reset");
+
+
+    });
+});

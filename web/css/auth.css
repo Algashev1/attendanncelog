@@ -1,0 +1,91 @@
+body {
+    background-color: #e6e6e6;
+}
+
+#auth_box {
+    width: 300px; /* Ширина блока */
+    padding: 24px 24px 0; /* Поля вокруг текста */
+    margin: 150px auto 0; /* Отступы от верхнего края, левого/правого края, от нижнего края */
+    background: #FEFEFE; /* Цвет фона */
+    border: 2px solid #7d9fde; /* Параметры рамки */
+    border-radius: 10px; /* Радиус скругления уголков рамки */
+    font: 16px/18px Arial, Tahoma, sans-serif; /* Характеристики шрифта*/
+    color: #2e2e2e; /* Цвет текста*/
+    visibility: visible;
+}
+
+#reg_box {
+    width: 300px; /* Ширина блока */
+    padding: 24px 24px 0; /* Поля вокруг текста */
+    margin: -400px auto 0; /* Отступы от верхнего края, левого/правого края, от нижнего края */
+    background: #FEFEFE; /* Цвет фона */
+    border: 2px solid #7d9fde; /* Параметры рамки */
+    border-radius: 10px; /* Радиус скругления уголков рамки */
+    font: 14px/18px Arial, Tahoma, sans-serif; /* Характеристики шрифта*/
+    color: #2e2e2e; /* Цвет текста*/
+    visibility: hidden;
+}
+
+.pole {
+    margin: 0 0 18px;
+}
+.pole label {
+    display: block;
+    margin: 0 0 15px;
+}
+.pole input {
+    font: 10px Arial, Tahoma, sans-serif;
+    color: #444;
+    width: 265px;
+    padding: 10px 13px;
+    border: 1px solid #a6acaf;
+    border-radius: 3px;
+    outline: none;
+    border-radius: 4px;
+}
+.pole input:focus {
+    border-color: #7d9fde;
+    box-shadow: inset 2px 2px 6px #EBEBEB, 0 0 4px #D0E6F6;
+}
+
+.sub input {
+    font: 15px Arial, Tahoma, sans-serif;
+    margin: 5px 0 15px;
+    width: 120px;
+    padding: 8px 13px;
+    color: #FEFEFE;
+    background: #a6acaf;
+    border: 1px solid #858b8e;
+    border-radius: 5px;
+}
+
+/*.sub input:active {*/
+    /*border-color: #7d9fde;*/
+    /*box-shadow: inset 2px 2px 6px #EBEBEB, 0 0 4px #D0E6F6;*/
+/*}*/
+/*.sub input:hover {*/
+
+/*}*/
+
+
+.lab_reg {
+    font: 17px Arial, Tahoma, sans-serif;
+    margin: -43px 175px 20px;
+}
+.lab_reg label:hover {
+    color: #858b8e;
+}
+
+.lab_return {
+    font: 17px Arial, Tahoma, sans-serif;
+    margin: -43px 200px 25px;
+}
+
+.lab_return label:hover {
+    color: #858b8e;
+}
+
+.error span{
+    margin:0 60px;
+    color: #eb0006;
+}
