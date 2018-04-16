@@ -3,38 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Редактирование</title>
+    <link rel="stylesheet" type="text/css" href="css/edit.css" >
     <script src="http://code.jquery.com/jquery-2.2.4.js" type="text/javascript"></script>
     <script src="js/edit.js"></script>
 </head>
 <body>
-<a href="main.html">main</a>
-<fieldset>
-    <div>
-        <p><input type="text" id="student_fio"required placeholder="ФИО студента"></p>
-        <p><input type="button" id="add_student" value="Добавить"></p>
-    </div>
-    <div>
-        <select size=5 id="students"></select>
-        <p><input type="button" id="del_student" value="Удалить"></p>
-    </div>
-    <div>
-        <p><input type="text" id="update_stud"required placeholder="Выберите студента"></p>
-        <p><input type="button" id="upd_student" value="Изменить"></p>
-    </div>
-</fieldset>
+<div class="exit">
+    <a href="auth.html">Выход</a>
+</div>
+<div class="all">
+    <div class="all_block">
+        <div id="edit_stud">
+            <div class="error">
+                <span id="error_msg1"></span>
+            </div>
+            <div class="pole">
+                <input type="text" id="student_fio"required placeholder="ФИО студента">
+            </div>
+            <div class="btn">
+                <input type="button" id="add_student" value="Добавить">
+            </div>
+            <div class="sel">
+                <select size=10 id="students">
+                </select>
+            </div>
+            <div class="btn">
+                <input type="button" id="del_student" value="Удалить">
+            </div>
+            <div class="pole">
+                <input type="text" id="update_stud"required placeholder="Выберите студента">
+            </div>
+            <div class="btn">
+                <input type="button" id="upd_student" value="Изменить">
+            </div>
+        </div>
 
-<fieldset>
-    <div>
-        <select required id="all_discipline">
-            <option value="" hidden>Выбрать дисциплину</option>
-        </select>
-        <p><input type="button" id="add_discipline" value="Добавить"></p>
+        <div id="edit_schedules">
+            <div class="error">
+                <span id="error_msg2"></span>
+            </div>
+            <div class="sel">
+                <select required id="all_discipline">
+                    <option value="" hidden>Выбрать дисциплину</option>
+                </select>
+            </div>
+            <div class="btn">
+                <input type="button" id="add_discipline" value="Добавить">
+            </div>
+            <div class="sel">
+                <select size=7 id="schedules"></select>
+            </div>
+            <div class="btn">
+                <input type="button" id="del_schedule" value="Удалить">
+            </div>
+        </div>
     </div>
-    <div>
-        <select size=5 id="schedules"></select>
-        <p><input type="button" id="del_schedule" value="Удалить"></p>
+    <div class="transition">
+        <a href="main.html">Перейти к журналу посещаемости</a>
     </div>
-</fieldset>
-
+</div>
 </body>
 </html>

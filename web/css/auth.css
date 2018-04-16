@@ -2,6 +2,8 @@ body {
     background-color: #e6e6e6;
 }
 
+
+
 #auth_box {
     width: 300px; /* Ширина блока */
     padding: 24px 24px 0; /* Поля вокруг текста */
@@ -34,7 +36,7 @@ body {
     margin: 0 0 15px;
 }
 .pole input {
-    font: 10px Arial, Tahoma, sans-serif;
+    font: 14px Arial, Tahoma, sans-serif;
     color: #444;
     width: 265px;
     padding: 10px 13px;
@@ -85,7 +87,11 @@ body {
     color: #858b8e;
 }
 
-.error span{
-    margin:0 60px;
+.error1 span{
+    margin:0 83px;
+    color: #eb0006;
+}
+.error2 span{
+    margin:0 55px;
     color: #eb0006;
 }

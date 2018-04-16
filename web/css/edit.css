@@ -1,0 +1,121 @@
+body {
+    background-color: #e6e6e6;
+}
+.exit {
+    margin: 20px;
+}
+
+.exit a{
+    margin: 50px 1250px 0;
+    font: 14px Arial, Tahoma, sans-serif;
+    padding: 9px 13px;
+    color: #FEFEFE;
+    background: #79a4bf;
+    border: 1px solid #858b8e;
+    border-radius: 5px;
+}
+
+.all {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.all_block {
+    margin: 40px 200px 0;
+}
+
+.transition {
+    margin: 450px 500px 0;
+}
+
+.transition a {
+    font: 15px Arial, Tahoma, sans-serif;
+    width: 100px;
+    padding: 9px 13px;
+    color: #FEFEFE;
+    background: #79a4bf;
+    border: 1px solid #858b8e;
+    border-radius: 5px;
+}
+
+#edit_stud {
+    width: 390px; /* Ширина блока */
+    padding: 24px 24px 0; /* Поля вокруг текста */
+    /*margin: 50px 80px 0; /* Отступы от верхнего края, левого/правого края, от нижнего края */
+    background: #FEFEFE; /* Цвет фона */
+    border: 2px solid #7d9fde; /* Параметры рамки */
+    border-radius: 4px; /* Радиус скругления уголков рамки */
+    font: 16px/18px Arial, Tahoma, sans-serif; /* Характеристики шрифта*/
+    color: #2e2e2e; /* Цвет текста*/
+    float:left;
+}
+
+#edit_schedules {
+    width: 390px; /* Ширина блока */
+    padding: 24px 24px 0; /* Поля вокруг текста */
+    margin: 0 15px 0; /* Отступы от верхнего края, левого/правого края, от нижнего края */
+    background: #FEFEFE; /* Цвет фона */
+    border: 2px solid #7d9fde; /* Параметры рамки */
+    border-radius: 4px; /* Радиус скругления уголков рамки */
+    font: 16px/18px Arial, Tahoma, sans-serif; /* Характеристики шрифта*/
+    color: #2e2e2e; /* Цвет текста*/
+    float:left;
+}
+
+.pole {
+    margin: 0 0 18px;
+}
+.pole label {
+    display: block;
+    margin: 0 0 15px;
+}
+.pole input {
+    font: 15px Arial, Tahoma, sans-serif;
+    color: #444;
+    width: 250px;
+    padding: 10px 13px;
+    border: 1px solid #a6acaf;
+    border-radius: 3px;
+    outline: none;
+    border-radius: 4px;
+}
+.pole input:focus {
+    border-color: #7d9fde;
+    box-shadow: inset 2px 2px 6px #EBEBEB, 0 0 4px #D0E6F6;
+}
+
+.btn {
+    margin: -57px 290px 20px;
+}
+
+.btn input {
+    font: 15px Arial, Tahoma, sans-serif;
+    width: 100px;
+    padding: 9px 13px;
+    color: #FEFEFE;
+    background: #a6acaf;
+    border: 1px solid #858b8e;
+    border-radius: 5px;
+}
+
+.sel {
+    margin: 0 0 20px;
+}
+
+.sel select{
+    width: 280px;
+    font: 15px Arial, Tahoma, sans-serif;
+}
+
+#all_discipline {
+
+}
+
+.error {
+    margin:auto auto 15px;
+}
+
+.error span{
+    color: #eb0006;
+}

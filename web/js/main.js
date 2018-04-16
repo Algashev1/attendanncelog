@@ -108,14 +108,12 @@ $(document).ready(function(){
             data: {'schedules': schedules, 'number': number, 'resultStudent': resultStudent},
             url: 'UpdAttendance',
             success: function (serverData) {
-                alert('Good');
+                alert('Данные были успешно сохранены');
             },
             error: function (e) {
                 alert("Произошла ошибка ajax запроса!");
             }
         });
-
-        alert(resultStudent);
     });
 
     $("#schedules").change(function() {

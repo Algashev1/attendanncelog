@@ -118,10 +118,9 @@ $(document).ready(function(){
     }
 
     $("#add_student").click(function() {
-        alert("test");
         var fio =  $("#student_fio").val();
         if (fio === "") {
-            alert("Поле не было заполнено");
+            $("#error_msg1").text("Поле не было заполнено");
         } else {
             $.ajax
             ({
@@ -131,11 +130,11 @@ $(document).ready(function(){
                 success: function (serverData) {
                     var result = serverData.result;
                     if (result > 0) {
-                        alert("Good");
                         getStudents();
+                        $("#error_msg1").text("");
                     }
                     else {
-                        alert("Bad");
+                        $("#error_msg1").text("Такой студент уже существует");
                     }
                 },
                 error: function (e) {
@@ -148,7 +147,7 @@ $(document).ready(function(){
     $("#add_discipline").click(function() {
         var discipline_id = $("#all_discipline").val();
         if (discipline_id === "") {
-            alert("Bad");
+            $("#error_msg2").text("Выберите дисциплину для добавления");
         }
         else {
             $.ajax
@@ -159,12 +158,12 @@ $(document).ready(function(){
                 success: function (serverData) {
                     var result = serverData.result;
                     if (result > 0) {
-                        alert("Good");
                         getSchedules();
+                        $("#error_msg2").text("");
                     } else if (result == 0) {
-                        alert ("Такая дисциплина уже была добавлена");
+                        $("#error_msg2").text("Дисциплина уже была добавлена");
                     } else {
-                        alert("Bad");
+                        $("#error_msg2").text("Не удалось добавить дисциплину");
                     }
                 },
                 error: function (e) {
@@ -176,8 +175,8 @@ $(document).ready(function(){
 
     $("#del_schedule").click(function() {
         var schedule_id = $("#schedules").val();
-        if (schedule_id === "") {
-            alert("Bad");
+        if (schedule_id === "" || schedule_id == undefined) {
+            $("#error_msg2").text("Выберите дисциплину для удаления");
         }
         else {
             $.ajax
@@ -188,10 +187,9 @@ $(document).ready(function(){
                 success: function (serverData) {
                     var result = serverData.result;
                     if (result > 0) {
-                        alert("Good");
                         getSchedules();
+                        $("#error_msg2").text("");
                     } else {
-                        alert("Bad");
                     }
                 },
                 error: function (e) {
@@ -203,8 +201,8 @@ $(document).ready(function(){
 
     $("#del_student").click(function() {
         var student_id = $("#students").val();
-        if (student_id === "") {
-            alert("Bad");
+        if (student_id === "" || student_id == undefined) {
+            $("#error_msg1").text("Выберите студента");
         }
         else {
             $.ajax
@@ -215,11 +213,11 @@ $(document).ready(function(){
                 success: function (serverData) {
                     var result = serverData.result;
                     if (result > 0) {
-                        alert("Good");
                         $("#update_stud").val("");
                         getStudents();
+                        $("#error_msg1").text("");
                     } else {
-                        alert("Bad");
+                        $("#error_msg1").text("Не удалось удалить студента");
                     }
                 },
                 error: function (e) {
@@ -234,7 +232,7 @@ $(document).ready(function(){
         var fio = upd_stud.val();
         var student_id = upd_stud.attr('data-id');
         if (fio === "" ) {
-            alert("Bad");
+            $("#error_msg1").text("Поле не может быть пустым");
         }
         else {
             $.ajax
@@ -245,10 +243,10 @@ $(document).ready(function(){
                 success: function (serverData) {
                     var result = serverData.result;
                     if (result > 0) {
-                        alert("Good");
                         getStudents();
+                        $("#error_msg1").text("");
                     } else {
-                        alert("Bad");
+                        $("#error_msg1").text("Студент не был изменён");
                     }
                 },
                 error: function (e) {
